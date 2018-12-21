@@ -1,0 +1,17 @@
+.title{
+    display: flex;
+    justify-content: center;
+    color: crimson;
+}
+
+agm-map {
+    height: 70vh;
+}
+
+button{
+    margin: 15px 0;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 25px;
+}

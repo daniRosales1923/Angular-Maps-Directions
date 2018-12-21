@@ -1,0 +1,12 @@
+<h1 class="title">Angular Maps Directions</h1>
+<agm-map [latitude]="lat" [longitude]="lng">
+  <agm-direction 
+  [renderOptions]="renderOptions" 
+  [markerOptions]="markerOptions"
+  [origin]="origin"
+  [destination]="destination"
+  >
+  </agm-direction>
+</agm-map>
+<button (click)="Go()"> Start</button>
+
